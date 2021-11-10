@@ -73,6 +73,13 @@ public class JUnitTest {
     public void isEmail9() {
         Assert.assertTrue(obj2.isEmail("abc+100@yahoo.com"));
     }
+
+    Phone obj3 = new Phone();
+
+    @Test
+    public void isNumber() {
+        Assert.assertTrue(obj3.isNumber("+971 569680786"));
+    }
     }
 
 

@@ -15,5 +15,16 @@ public class JUnitTest {
         public void testFirstName2() {
             Assert.assertFalse(obj.isFirstName("noushad"));
         }
+    LastName1 obj1 = new LastName1();
+
+    @Test
+    public void isLastName1() {
+        Assert.assertTrue(obj1.isLastName("Shehmin"));
+    }
+
+    @Test
+    public void isLastName2() {
+        Assert.assertFalse(obj1.isLastName("Shehmin1"));
+    }
     }
 

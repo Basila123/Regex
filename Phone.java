@@ -3,6 +3,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Phone {
+
     /**
      * This method checks if the entered number is valid or not
      *
@@ -16,9 +17,6 @@ public class Phone {
         }
 
         //driver code
-        public static void main(String[] args) {
-            Phone number = new Phone();
-            System.out.println(number.isNumber("+91 569680786"));
-        }
-    }
 
+    }
+    }

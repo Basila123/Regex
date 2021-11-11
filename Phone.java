@@ -10,15 +10,13 @@ public class Phone {
      * @return it returns a boolean value true if the number is valid
      */
     public boolean isNumber(String Number) {
-            Pattern pattern = Pattern.compile("^[+]+[0-9]{2,3}+[1-9][0-9]{9}$");
+            Pattern pattern = Pattern.compile("^[0-9]{2}+[ ][0-9]{10}$");
             Matcher matcher = pattern.matcher(Number);
             return matcher.matches();
         }
 
         //driver code
-        public static void main(String[] args) {
-            Phone number = new Phone();
-            System.out.println(number.isNumber("+91 569680786"));
+        
         }
     }
 

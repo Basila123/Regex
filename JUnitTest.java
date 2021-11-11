@@ -79,9 +79,9 @@ public class JUnitTest {
     @Test
     public void isNumber() {
         Assert.assertTrue(obj3.isNumber("+971 569680786"));
+      
     }
-
-    Password obj4 = new Password();
+  Password obj4 = new Password();
 
     @Test
     public void password() {
